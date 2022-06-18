@@ -1,9 +1,9 @@
 ## Requirements
 
-PHP version/verzia >= 7.25
-MySQL version/verzia: 5.7 / 8.
-composer dependency manager
-npm package manager 
+-   PHP version/verzia >= 7.25
+-   MySQL version/verzia: 5.7 / 8.
+-   composer dependency manager
+-   npm package manager 
 
 ## Installation
 
@@ -36,29 +36,29 @@ e.g.: DB_DATABASE=sprava_inventura_auto_dielov, DB_USERNAME=root DB_PASSWORD=pas
 
 
 ## Inštrukcie SK:
-Stiahnite aplikáciu z repozitára.
+-   Stiahnite aplikáciu z repozitára.
 `git clone https://github.com/martinfeher/sprava-inventura-auto-dielov.git`
 
-Vojdite do adresára aplikácie.
+-   Vojdite do adresára aplikácie.
 
-Skopírujte .env.example do .env 
+-   Skopírujte .env.example do .env 
 `cp .env.example .env`
 
-Vytvorte MySQL databázu a parametre zadaje do .env súbora napr.: 
+-   Vytvorte MySQL databázu a parametre zadaje do .env súbora napr.: 
 DB_DATABASE=sprava_inventura_auto_dielov, DB_USERNAME=root DB_PASSWORD=heslo
          //inštalácia javascriptových balíčkov do node_modules adresára
 
-Spustite príkaz 
+-   Spustite príkaz 
     `php artisan migrate`     // vytvorenie databázových tabuliek
     `php artisan db:seed` alebo `php artisan migrate:refresh --seed`    // testovanie databázy, vytvorenie testovacích dát v databáze
 
 
-Spustite príkazy
+-   Spustite príkazy
     `composer install`      // inštalácia laravel balíčkov do vendor adresára
     `npm install`  
 
-Príkaz na spustenie aplikácie v lokálnom prostredí
+-   Príkaz na spustenie aplikácie v lokálnom prostredí
    `php artisan serve`
 
-Základné url: 
+-   Základné url: 
 `/` - cars, `/parts` - parts
