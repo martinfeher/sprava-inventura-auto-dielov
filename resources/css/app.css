@@ -1,0 +1,97 @@
+
+body {
+    background-color: #F7F7F7 !important;
+}
+
+main {
+    background-color: white;
+
+}
+
+.header {
+    background-color: #4747df;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.header a {
+    color: #DDD;
+}
+
+.header a:hover, .header a.active {
+    color: #FFF;
+}
+
+.add-item-btn {
+    background-color: #5959f5 !important;
+    border-radius: 4px !important;
+}
+
+.add-item-btn a {
+    color: #F1F1F1;
+    text-decoration: none;
+}
+
+.add-item-btn a:hover {
+    color: #FFF;
+}
+
+.create-item-btn {
+    background-color: #5959f5 !important;
+    color: #F1F1F1;
+    border: none;
+}
+
+.create-item-btn:hover {
+    color: #FFF;
+}
+
+.edit-icon i {
+    color: #6bb275 !important;
+}
+
+.delete-icon {
+    color: #167571;
+    cursor: pointer;
+}
+
+.errors {
+    color: #FFF;
+}
+
+th {
+    justify-content: center;
+    min-width: 130px;
+}
+
+input:focus-visible {
+    border: 1px solid #BBB !important;
+}
+
+input {
+    border: 1px solid #BBB;
+}
+
+label.label_is_registered {
+    margin: 0 14px 0 12px;
+    line-height: 23px;
+    vertical-align: text-bottom;
+}
+
+.block_is_registered_yes label.label_is_registered {
+    margin: 0 9px 0 12px;
+}
+
+.block_is_registered {
+    margin-bottom: 2px;
+}
+
+.table-header {
+    background-color: #e7e7e7;
+}
