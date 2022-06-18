@@ -7,31 +7,31 @@ npm package manager
 
 ## Installation
 
-Please download the application from the repository.
+-   Please download the application from the repository.
 `git clone https://github.com/martinfeher/sprava-inventura-auto-dielov.git`
 
-Please open the application folder
+-   Please open the application folder
 `cd sprava-inventura-auto-dielov`
 
-Copy the example env file and make the required configuration changes in the .env file
+-   Copy the example env file and make the required configuration changes in the .env file
 `cp .env.example .env`
 
-Please create the MySQL database and add the connection parameters to the .env file
+-   Please create the MySQL database and add the connection parameters to the .env file
 e.g.: DB_DATABASE=sprava_inventura_auto_dielov, DB_USERNAME=root DB_PASSWORD=pass
 
-Migration, testing commands 
+-   Migration, testing commands 
     `php artisan migrate`     // creates database tables
     `php artisan db:seed`, or `php artisan migrate:refresh --seed`    // testing the database, creating testing data in the database
     `php artisan migrate:refresh`    // reset the tables with no values in, remove data in the database tables
 
-Please run:
+-   Please run:
     `composer install`  // installs composer packages to vendor directory
     `npm install`       // installs npm packages to node_modules directory
 
-Command to run the application in the local environment
+-   Command to run the application in the local environment
     `php artisan serve`
 
-Base urls: 
+-   Base urls: 
 `/` - cars, `/parts` - parts
 
 
