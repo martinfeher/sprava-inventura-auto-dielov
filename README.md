@@ -1,8 +1,9 @@
 ## Description
 Using PHP Laravel and Vue JS display car and car part information.
-A car has several car parts and one part belongs to only one car.
+A car has a registration number, several car parts and one car part belongs to only one car.
 The user can view the list of cars/parts, add a new car/part,
 edit car/part, delete car/part.
+
 
 ## Requirements
 
